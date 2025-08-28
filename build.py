@@ -26,6 +26,17 @@ HEADER_MD = """# content
 > **DO NOT EDIT**: this **README.md** file was automatically generated on **{0}** by the **build.py** script based on the contents of the repository.
 
 https://sfmunoz.com/ site content
+
+## Architecture
+
+```mermaid
+flowchart LR
+    sfmunoz("`sfmunoz.github.io<br>**frontend**<br>SvelteKit`")
+    cms("`cms<br>**backend**<br>Hugo`")
+    content("`content<br>**data**<br>Git`")
+    style content stroke-width:4px
+    sfmunoz --> cms --> content
+```
 """
 
 # }}}
