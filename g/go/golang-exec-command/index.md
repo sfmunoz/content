@@ -1,10 +1,13 @@
-# Golang: exec.Command() examples
-
-Golang exec.Command() examples
-
-- [stat-bin.go](https://gist.github.com/sfmunoz/fb0ee6829a6f4d1677c90ea2cdfb8705#stat-bingo)
-- [head-5-cat-n.go](https://gist.github.com/sfmunoz/fb0ee6829a6f4d1677c90ea2cdfb8705#head-5-cat-ngo)
-- [cat-pipe.go](https://gist.github.com/sfmunoz/fb0ee6829a6f4d1677c90ea2cdfb8705#cat-pipego)
+---
+title: 'Golang: exec.Command() examples'
+summary: 'List of Golang "exec.Command()" examples'
+url: 'tips/:slug'
+date: '2025-06-21T05:34:05Z'
+categories: ['tips']
+tags: ['golang','exec','command']
+draft: false
+legacy_id: 5118
+---
 
 ## stat-bin.go
 
@@ -174,7 +177,3 @@ $ go run cat-pipe.go
 2024/12/11 17:39:47 >>>      4  **** 3 ****
 2024/12/11 17:39:48 >>>      5  **** 4 ****
 ```
-
----
-
-#tip 5118
