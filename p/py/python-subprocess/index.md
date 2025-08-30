@@ -1,4 +1,5 @@
 ---
+slug: python-subprocess
 title: 'Python subprocess'
 summary: 'Python subprocess.call() and subprocess.Popen() examples'
 url: 'tips/:slug'

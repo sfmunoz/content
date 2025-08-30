@@ -1,4 +1,5 @@
 ---
+slug: lvm-snapshots
 title: 'LVM snapshots'
 summary: 'LVM snapshots usage in a backup and restore procedure'
 url: 'tips/:slug'

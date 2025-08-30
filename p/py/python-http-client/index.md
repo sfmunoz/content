@@ -1,4 +1,5 @@
 ---
+slug: python-http-client
 title: 'Python HTTP client'
 summary: 'Python HTTP client examples'
 url: 'tips/:slug'

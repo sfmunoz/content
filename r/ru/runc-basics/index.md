@@ -1,4 +1,5 @@
 ---
+slug: runc-basics
 title: 'runc basics'
 summary: 'runc direct usage example (docker is only used to pull the image)'
 url: 'tips/:slug'

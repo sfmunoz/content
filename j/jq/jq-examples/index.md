@@ -1,4 +1,5 @@
 ---
+slug: jq-examples
 title: 'jq examples'
 summary: 'List of jq examples'
 url: 'tips/:slug'

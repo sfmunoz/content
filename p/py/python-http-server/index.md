@@ -1,4 +1,5 @@
 ---
+slug: python-http-server
 title: 'Python HTTP server'
 summary: 'Python HTTP server examples'
 url: 'tips/:slug'

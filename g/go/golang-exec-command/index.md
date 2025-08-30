@@ -1,4 +1,5 @@
 ---
+slug: golang-exec-command
 title: 'Golang: exec.Command() examples'
 summary: 'List of Golang "exec.Command()" examples'
 url: 'tips/:slug'
