@@ -1,10 +1,13 @@
-# Python subprocess
-
-Python **subprocess.call()** and **subprocess.Popen()** examples
-
-- [References](https://gist.github.com/sfmunoz/4127f06554f25e022eb26496c0363dc2#references)
-- [Simplified usage](https://gist.github.com/sfmunoz/4127f06554f25e022eb26496c0363dc2#simplified-usage)
-- [subprocess.Popen()](https://gist.github.com/sfmunoz/4127f06554f25e022eb26496c0363dc2#subprocesspopen)
+---
+title: 'Python subprocess'
+summary: 'Python subprocess.call() and subprocess.Popen() examples'
+url: 'tips/:slug'
+date: '2025-06-20T17:55:18Z'
+categories: ['tips']
+tags: ['python','subprocess']
+draft: false
+legacy_id: 5113
+---
 
 ## References
 
@@ -83,7 +86,3 @@ Taking the following information into account **p.communicate()** is preferred i
 >
 > Changed in version 3.3: timeout was added.\
 > (...)
-
----
-
-#tip 5113
