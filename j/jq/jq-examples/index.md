@@ -37,8 +37,6 @@ legacy_id: 5012
 }
 ```
 
-<a name="e1"></a>
-
 ## Example 1: create string out of document data
 
 ```bash
@@ -51,8 +49,6 @@ export TITLE="Some random data"
 export PEOPLE="3"
 export COUNTRIES="4"
 ```
-
-<a name="e2"></a>
 
 ## Example 2: keys
 
@@ -93,8 +89,6 @@ title
 ts
 ```
 
-<a name="e3"></a>
-
 ## Example 3: get some fields from dictionary
 
 ```bash
@@ -108,8 +102,6 @@ jq '{ts,title}'
   "title": "Some random data"
 }
 ```
-
-<a name="e4"></a>
 
 ## Example 4: get some fields from array of dictionaries
 
@@ -125,8 +117,6 @@ jq '.people | [.[] | {name,age}]'
 ]
 ```
 
-<a name="e5"></a>
-
 ## Example 5: compose array of strings from array of dictionaries
 
 ```bash
@@ -136,8 +126,6 @@ jq '.people | [.[] | {name,age} | join("|")]'
 ```json
 ["Alfred|34", "Bob|40", "Charles|22"]
 ```
-
-<a name="e6"></a>
 
 ## Example 6: to_entries
 
@@ -166,8 +154,6 @@ jq '.countries | to_entries'
 ]
 ```
 
-<a name="e7"></a>
-
 ## Example 7: convert array to dictionary → from_entries
 
 ```bash
@@ -181,8 +167,6 @@ jq '.people | [.[] | {"key":.name,"value":.}] | from_entries'
   "Charles": { "name": "Charles", "age": 22 }
 }
 ```
-
-<a name="e8"></a>
 
 ## Example 8: dictionary filter → to_entries + select() + from_entries
 
