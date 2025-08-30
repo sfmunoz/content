@@ -1,10 +1,13 @@
-# runc
-
-**runc** direct usage example (docker is only used to pull the image)
-
-- [Reference](https://gist.github.com/sfmunoz/cf6fbb060c932315bd353bf5cf280945#reference)
-- [runc.sh](https://gist.github.com/sfmunoz/cf6fbb060c932315bd353bf5cf280945#runcsh)
-  - [Execution](https://gist.github.com/sfmunoz/cf6fbb060c932315bd353bf5cf280945#execution)
+---
+title: 'runc basics'
+summary: 'runc direct usage example (docker is only used to pull the image)'
+url: 'tips/:slug'
+date: '2025-06-21T16:00:51Z'
+categories: ['tips']
+tags: ['runc','basics','docker']
+draft: false
+legacy_id: 5010
+---
 
 ## Reference
 
@@ -166,7 +169,3 @@ kernel.unprivileged_userns_clone = 1
 ~
 + rm -rf /var/tmp/runc-sh-20252106-155553
 ```
-
----
-
-#tip 5010
