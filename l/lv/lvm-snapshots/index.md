@@ -1,12 +1,13 @@
-# LVM: backup / restore
-
-LVM backup and restore procedure using snapshots
-
-- [1. LV setup](https://gist.github.com/sfmunoz/1dbda1204be87a09e7014a465544a7b6#1-lv-setup)
-- [2. LV backup creation](https://gist.github.com/sfmunoz/1dbda1204be87a09e7014a465544a7b6#2-lv-backup-creation)
-- [3a. LV backup restore](https://gist.github.com/sfmunoz/1dbda1204be87a09e7014a465544a7b6#3a-lv-backup-restore)
-- [3b. LV backup removal](https://gist.github.com/sfmunoz/1dbda1204be87a09e7014a465544a7b6#3b-lv-backup-removal)
-- [XFS: mount both at a time](https://gist.github.com/sfmunoz/1dbda1204be87a09e7014a465544a7b6#xfs-mount-both-at-a-time)
+---
+title: 'LVM snapshots'
+summary: 'LVM snapshots usage in a backup and restore procedure'
+url: 'tips/:slug'
+date: '2025-06-25T15:33:46Z'
+categories: ['tips']
+tags: ['lvm','backup','restore']
+draft: false
+legacy_id: 4171
+---
 
 ## 1. LV setup
 Create a **test** LV:
@@ -62,7 +63,3 @@ new UUID = 38a8b708-a06f-4b5e-9de2-f8192dad21cc
 # mount -o ro /dev/vg0/test-bck /mnt2
 (... nothing ...)
 ```
-
----
-
-#tip 4171
