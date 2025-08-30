@@ -1,17 +1,13 @@
-# jq examples
-
-[jq](https://jqlang.org/) examples
-
-- [References](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#references)
-- [Input](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#input)
-- [Example 1](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e1): create string out of document data
-- [Example 2](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e2): keys
-- [Example 3](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e3): get some fields from dictionary
-- [Example 4](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e4): get some fields from array of dictionaries
-- [Example 5](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e5): compose array of strings from array of dictionaries
-- [Example 6](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e6): to_entries
-- [Example 7](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e7): convert array to dictionary → from_entries
-- [Example 8](https://gist.github.com/sfmunoz/3bbe909b6c578c0c94d2a696b00ce60b#e8): dictionary filter → to_entries + select() + from_entries
+---
+title: 'jq examples'
+summary: 'List of jq examples'
+url: 'tips/:slug'
+date: '2025-06-24T16:51:14Z'
+categories: ['tips']
+tags: ['jq','examples']
+draft: false
+legacy_id: 5012
+---
 
 ## References
 
@@ -206,7 +202,3 @@ jq '.countries | to_entries | [.[] | select(.value.population > 100)] | from_ent
   }
 }
 ```
-
----
-
-#tip 5012
