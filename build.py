@@ -31,11 +31,12 @@ https://sfmunoz.com/ site content
 
 ```mermaid
 flowchart LR
+    user(["user"])
     sfmunoz("`sfmunoz.github.io<br>**frontend**<br>SvelteKit`")
     cms("`cms<br>**backend**<br>Hugo`")
     content("`content<br>**data**<br>Git`")
     style content stroke-width:4px
-    sfmunoz --> cms --> content
+    user -->|https| sfmunoz --> cms --> content
 ```
 """
 
@@ -86,7 +87,7 @@ class ReadmeBuild(object):
 # {{{ main
 
 if __name__ == "__main__":
-    epilog = "46285520+sfmunoz@users.noreply.github.com (C) 2025"
+    epilog = "46285520+sfmunoz@users.noreply.github.com (C) 2025-2026"
 
     parser = ArgumentParser(
         description = 'build.py (v1.0)',
