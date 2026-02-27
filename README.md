@@ -1,7 +1,7 @@
 # content
 
 > [!WARNING]
-> **DO NOT EDIT**: this **README.md** file was automatically generated on **2026-02-27 06:04:50 UTC** by the **build.py** script based on the contents of the repository.
+> **DO NOT EDIT**: this **README.md** file was automatically generated on **2026-02-27 07:09:12 UTC** by the **build.py** script based on the contents of the repository.
 
 https://sfmunoz.com/ site content
 
@@ -28,6 +28,10 @@ flowchart LR
 ## l
 
 * [lvm-snapshots](l/lv/lvm-snapshots/index.md)
+
+## n
+
+* [nftables-basics](n/nf/nftables-basics/index.md)
 
 ## p
 
