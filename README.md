@@ -1,7 +1,7 @@
 # content
 
 > [!WARNING]
-> **DO NOT EDIT**: this **README.md** file was automatically generated on **2025-08-28 16:25:04 UTC** by the **build.py** script based on the contents of the repository.
+> **DO NOT EDIT**: this **README.md** file was automatically generated on **2026-02-27 06:04:50 UTC** by the **build.py** script based on the contents of the repository.
 
 https://sfmunoz.com/ site content
 
@@ -9,11 +9,12 @@ https://sfmunoz.com/ site content
 
 ```mermaid
 flowchart LR
+    user(["user"])
     sfmunoz("`sfmunoz.github.io<br>**frontend**<br>SvelteKit`")
     cms("`cms<br>**backend**<br>Hugo`")
     content("`content<br>**data**<br>Git`")
     style content stroke-width:4px
-    sfmunoz --> cms --> content
+    user -->|https| sfmunoz --> cms --> content
 ```
 
 ## g
